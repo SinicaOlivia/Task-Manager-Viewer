@@ -1,0 +1,8 @@
+.app-container {
+  background-color: #f3f3fb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: wrap;
+}
