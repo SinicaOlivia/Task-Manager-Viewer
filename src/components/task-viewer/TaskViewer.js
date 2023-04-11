@@ -4,8 +4,9 @@ import "./TaskViewer.css";
 function TaskViewer({dates}) {
     return (
         <>
-        {dates.map((task) =>(
+        {dates.map((task, index) =>(
             <TaskCard
+            key={index}
             id={task.id}
             status={task.status}
             name={task.name}
